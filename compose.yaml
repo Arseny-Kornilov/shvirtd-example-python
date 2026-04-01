@@ -45,8 +45,6 @@ services:
       start_period: 30s
 
   mysqldata:
-    # Если mysqldata не нужен, удалите этот блок
-    # Если нужен, добавьте настройки, например:
     image: alpine:latest
     command: sleep infinity
     volumes:
